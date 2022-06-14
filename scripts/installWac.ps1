@@ -13,7 +13,7 @@ Start-Process msiexec.exe -Wait -ArgumentList $msiArgs
 <# Update WAC Extensions
 Import-Module "$env:ProgramFiles\windows admin center\PowerShell\Modules\ExtensionTools" -Verbose
 
-# Specify the WAC gateway
+# Specify the WAC gateway ---------------------------
 $WAC = "https://$env:COMPUTERNAME"
 
 # List the WAC extensions
